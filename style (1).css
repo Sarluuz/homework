@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    position: relative;
+    font-family: "Helvetica Neue", sans-serif, Arial;
+    font-size: 12px;
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 510px;
+    width: 1100px;
+    margin: 0 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+   
+
+}
+.text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 450px ;
+    color: aliceblue;
+    text-shadow: rgba(255, 255, 255, alpha);
+    text-shadow: 1px 1px 1px hsl(0deg 0% 100% / 0%);
+    /* line-height: 10px; */
+    
+}
+.box1{ 
+    display: inline-block;
+    width: 500px;
+    height: 510px;
+    float: left;
+    margin-right: 10px;
+}
+.box1 img{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0;
+    object-fit: cover;
+    vertical-align: middle;
+}
+figure{
+    overflow: hidden;
+    margin: 0;
+    width: 500px;
+    height: 510px;
+    background-position: center;
+    border-radius: 2%;
+    color: azure;
+    text-align: center;
+}
+
+.footer{
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 700;
+    border-top: 1px solid hsla(0,0%,100%,.15);
+    font-size: 15px;           
+}
+
+.box1 #image img{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+.box1 #image:hover img{
+    transform: scale(1.2);
+}   
+
+.box1 a{
+    width: auto;
+    height: auto;
+    padding: 6px;
+    border-radius: 3px;
+    /* color: aliceblue; */
+    background-color: rgba(47, 101, 218, 0.877);
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    /* background-color: unset; */
+    transition: all .2s ease-in-out;
+
+}
+
+
+
+.yr a{
+    color: black;
+    margin-bottom:8px;
+    font-size: 16px;
+    font: bold;
+
+}
+.yr img{
+    margin-left: 20px;
+}
+
+
+.col{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 2%;
+    position: relative;
+    
+} 
+
+.col a{
+    position: absolute;
+    bottom: 80px;
+    left: 5px;
+    width: auto;
+    height:auto;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgba(47, 101, 218, 0.877);
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+.col h3{
+    position: sticky;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    /* position: sticky; */
+    width: 200px ;
+    height: auto;
+    color:#fff;
+    text-shadow: rgba(255, 255, 255, alpha);
+    text-shadow: 1px 1px 1px hsl(0deg 0% 100% / 0%);
+    line-height: 15px;
+}
+
+
+.box3{
+    width: 250px;
+    height: 500px;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.box2{
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+  
+
+
+
+.dorov{
+    /* margin-bottom:10px; */
+    background-position: center;
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2022/10/298704-07102022-1665122949-813622155-enhbold_indigo_-71.jpg );
+}
+.gurav{
+    background-position: center top;
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2022/09/298420-28092022-1664339099-1693616870-uyangadari_uyngadari-131.jpg);
+
+}
+.hoyr{
+    /* margin-bottom: 10px; */
+    background-position: center ;
+    background-image: url( https://mgl.gogo.mn/newsn/thumbnail/600/np/2022/09/08/5185489/gutal%20gudamj-154457-20693591921.jpeg);
+}
+.neg{
+    background-position: center top;
+    background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2022/08/297336-29082022-1661735662-2049150710-Enkhtuul_1-21.jpg);
+}
